@@ -1,0 +1,33 @@
+// src/App.json
+{
+  "expo": {
+    "name": "PortifolioLuizAlbertoCuryAndalecio",
+    "slug": "PortifolioLuizAlbertoCuryAndalecio",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "newArchEnabled": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "assetBundlePatterns": [
+      "assets/**/*",
+      "node_modules/react-native-vector-icons/Fonts/**/*"
+    ]
+  }
+}
